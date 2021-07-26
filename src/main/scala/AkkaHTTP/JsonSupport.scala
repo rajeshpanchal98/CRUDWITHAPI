@@ -1,8 +1,8 @@
+package AkkaHTTP
+
 //package akkaHttpServer
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
-
 import spray.json.DefaultJsonProtocol
-import spray.json.DefaultJsonProtocol.{jsonFormat1, jsonFormat2}
 final case class AkkaHttpRestServer(app: String, version: String)
 final case class Donut(name: String, price: Double)
 final case class Donuts(donuts: Seq[Donut])

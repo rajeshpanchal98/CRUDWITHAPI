@@ -15,5 +15,8 @@ libraryDependencies ++= Seq(
 
 
 )
+//libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0"
+
+//libraryDependencies += "org.slf4j" % "slf4j-api" % "1.7.10"
 val AkkaHttpVersion = "10.2.4"
 libraryDependencies += "com.typesafe.akka" %% "akka-http-spray-json" % AkkaHttpVersion

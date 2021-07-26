@@ -14,7 +14,7 @@ object MongoConnector {
 
 
 object Mydatabase extends App{
-  val collection = MongoConnector.getCollection("test")
+  val collection = MongoConnector.getCollection("MY")
 
   var doc: Document = Document("name" -> "MongoDB", "type" -> "database", "count" -> 1,
    "info" -> Document("x" -> 203, "y" -> 102))
